@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.bitcamp.firstSpring.domain.LoginRequest;
+import com.bitcamp.firstSpring.member.domain.LoginRequest;
 
 @Controller
 @RequestMapping("/member/login")
