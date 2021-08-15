@@ -13,5 +13,8 @@
 	<p><a href="<c:url value="/hello"/>">/hello</a><p>
 	<p><a href="<c:url value="/member/login"/>">/member/login</a><p>
 	<p><a href="<c:url value="/member/memberReg"/>">/member/memberReg</a><p>
+	<p><a href="<c:url value="/order/order"/>">/order/order</a><p>
+	<p><a href="<c:url value="/cookie/make"/>">/cookie/make</a><p>
+	<p><a href="<c:url value="/header/header"/>">/header/header</a><p>
 </body>
 </html>
