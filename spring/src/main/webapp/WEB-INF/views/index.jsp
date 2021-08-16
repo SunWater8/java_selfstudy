@@ -16,5 +16,8 @@
 	<p><a href="<c:url value="/order/order"/>">/order/order</a><p>
 	<p><a href="<c:url value="/cookie/make"/>">/cookie/make</a><p>
 	<p><a href="<c:url value="/header/header"/>">/header/header</a><p>
+	<p><a href="<c:url value="/search/search"/>">/search/search</a><p>
+	<p><a href="<c:url value="/upload/uploadForm"/>">/upload/uploadForm</a><p>
+	<p><a href="<c:url value="/upload/uploadForm"/>">/upload/uploadForm</a><p>
 </body>
 </html>
