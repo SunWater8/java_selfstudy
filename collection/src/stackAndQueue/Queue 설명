@@ -1,0 +1,11 @@
+Queue는 한 쪽에서 데이터가 추가되고 반대 쪽에서 데이터를 삭제하는 구조이다. 
+일반적으로 줄 서는 구조와 비슷하다. 은행에 가면 번호표를 받고 먼저 온 사람이 먼저 서비스를 받는 것처럼 말이다.
+이런 구조를 Queue라고 한다.
+
+Queue는 인터페이스이기 때문에 생성자가 없다. 
+따라서 Queue를 구현하려면 Queue의 하위 클래스를 이용해야 한다.
+Queue의 하위 클래스 중에서 LinkedList를 이용해서 Queue를 구현하기도 한다.
+
+Queue 메소드
+boolean add(E e) : 원소 e를 큐에 추가하기. 공간이 부족하면 illegalStateException이 발생한다.
+E element() : Queue의 헤드에 있는 원소를 반환. Queue에서 삭제하지는 않음.
