@@ -1,0 +1,12 @@
+Iterator는 collection framework에서 순환자 역할을 한다.
+자동으로 원소를 하나씩 순환해 나가는 특별한 인터페이스이다. 
+
+Iterator의 메소드
+boolean hasNext() : 이후에 원소가 더 있는지 판단하여 있으면 true를 반환.
+E next() : 다음 원소를 반환
+
+ListIterator 의 메소드
+boolean hasNext()
+E next()
+boolean hasPrevious():이전에 원소가 있는지 판단하여 있다면 true를 반환.
+E previous(): 이전 원소를 반환.
