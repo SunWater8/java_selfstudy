@@ -1,0 +1,6 @@
+Comparable 인터페이스
+
+Comparable 인터페이스를 구현한 클래스들은 같은 타입의 인스턴스끼리 서로 비교할 수 있다.
+Wrapper 클래스 (boolean 제외), String, Date, File 클래스 등은 Comparable 인터페이스가 구현되어 제공되기 때문에 이러한 객체들은 Tree에 넣을 때 알아서 오름차순으로 정렬된다.
+하지만 Person 클래스와 같이 Comparable을 구현하지 않은 클래스의 인스턴스를 TreeSet에 담으면, 실행 시 예외가 발생한다. 
+Comparable 인터페이스에 있는 compareTo 메소드를 overriding 하는 것이 중요하다. 
