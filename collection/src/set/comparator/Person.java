@@ -16,6 +16,10 @@ public class Person {
 	public int getId() {
 		return id;
 	}
+	
+	public int getScore() {
+		return score;
+	}
 
 	@Override
 	public String toString() {
