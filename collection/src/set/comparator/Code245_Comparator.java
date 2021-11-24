@@ -5,6 +5,7 @@ import java.util.TreeSet;
 public class Code245_Comparator {
 	public static void main(String[] args) {
 		
+		//score 순으로 정렬(오름차순)
 		TreeSet<Person> ts = new TreeSet<>(new PersonComparator());
 		ts.add(new Person(3,83));
 		ts.add(new Person(5,90));
