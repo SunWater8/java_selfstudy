@@ -1,4 +1,4 @@
-package castingTest1;
+package page315_castingTest1;
 
 public class CastingTest1 {
 	public static void main(String[] args) {
